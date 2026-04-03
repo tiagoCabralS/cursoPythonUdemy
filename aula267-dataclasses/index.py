@@ -2,6 +2,8 @@
 # O módulo dataclasses fornece um decorador e funções para criar métodos como 
 # __init__(), __repr__(), __eq__() (entre outros) em classes definidas pelo usuario
 # Em resumo dataclasses são syntax sugar para criar classes normais
+# __post_init__() é o método chamado logo em seguida do __init__()
+
 from dataclasses import dataclass # <- decorator
 
 @dataclass
